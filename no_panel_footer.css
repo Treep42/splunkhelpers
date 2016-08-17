@@ -1,0 +1,25 @@
+.panel-footer {
+    box-sizing: content-box !important;
+    height: 20px !important;;
+    padding: 5px 12px 5px 5px;
+    border: none;
+    margin:0 0 0 0;
+    background-color: #FFFFFF;
+    position:relative;
+    z-index:3;
+	visibility: hidden;
+}
+
+.dashboard-row .dashboard-panel .panel-footer.show,.dashboard-row .dashboard-panel .dashboard-element:hover .panel-footer{
+    box-sizing: content-box !important;
+    height: 20px !important;;
+    padding: 5px 12px 5px 5px;
+    border: none;
+    margin:0 0 0 0;
+    background-color: #FFFFFF;
+    position:relative;
+    z-index:3;
+	visibility: visible;
+}
+
+
